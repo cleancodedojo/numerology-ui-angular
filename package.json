@@ -126,6 +126,7 @@
     "test": "gulp test",
     "update-webdriver": "node node_modules/protractor/bin/webdriver-manager update",
     "build": "gulp build",
+    "prestart": "pwd && ls",
     "start": "babel-node server"
   },
   "private": true
