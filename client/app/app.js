@@ -23,14 +23,14 @@ import util from '../components/util/util.module';
 
 import './app.scss';
 
-angular.module('testCApp', [ngCookies, ngResource, ngSanitize, uiRouter, navbar, footer, main,
+angular.module('numerologyUIAngular', [ngCookies, ngResource, ngSanitize, uiRouter, navbar, footer, main,
   constants, util
 ])
   .config(routeConfig);
 
 angular.element(document)
   .ready(() => {
-    angular.bootstrap(document, ['testCApp'], {
+    angular.bootstrap(document, ['numerologyUIAngular'], {
       strictDi: true
     });
   });
