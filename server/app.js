@@ -8,6 +8,8 @@ import express from 'express';
 import config from './config/environment';
 import http from 'http';
 
+console.log("config: " + JSON.stringify(config));
+
 // Setup server
 var app = express();
 var server = http.createServer(app);
